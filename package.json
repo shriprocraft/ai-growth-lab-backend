@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "npx playwright install chromium && echo Backend ready",
-    "postinstall": "npx playwright install chromium" ,
     "lint": "oxlint",
     "test": "vitest run",
     "start": "node server/index.js",
